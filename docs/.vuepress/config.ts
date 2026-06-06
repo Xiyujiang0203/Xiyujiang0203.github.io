@@ -7,6 +7,11 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: 'XYJIANG',
 
+  locales: {
+    '/': { lang: 'zh-CN', title: 'XYJIANG' },
+    '/en/': { lang: 'en-US', title: 'XYJIANG' },
+  },
+
   head: [
     ['link', { rel: 'icon', href: 'https://github.com/Xiyujiang0203.png' }],
     ['link', { rel: 'stylesheet', href: 'https://fontsapi.zeoseven.com/292/main/result.css' }],
@@ -34,28 +39,6 @@ export default defineUserConfig({
     plugins: {
       git: process.env.NODE_ENV === 'production'
     },
-
-    collections: [
-      {
-        type: 'post',
-        dir: 'blog',
-        title: '博客',
-        pagination: 10,
-        postCover: {
-          layout: 'odd-left',
-          ratio: '16:9',
-          width: 400,
-          compact: true
-        },
-      },
-      {
-        type: 'doc',
-        dir: 'notes',
-        linkPrefix: '/notes/',
-        title: '笔记',
-        sidebar: 'auto',
-      },
-    ],
 
     article: '/blog/',
     cache: 'filesystem',

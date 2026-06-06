@@ -1,13 +1,15 @@
 <script setup>
+import { useSiteI18n } from '../composables/useSiteI18n'
 
+const { t } = useSiteI18n()
 </script>
 
 <template>
 <div class="about-me-card-bg vp-blog-post-item about-me-character">
-  <p class="about-me-card-title-normal">性格</p>
+  <p class="about-me-card-title-normal">{{ t('character') }}</p>
   <div class="about-me-character-content">
     <div class="about-me-character-type">
-      <p class="about-me-card-text-big about-me-card-text-color">守卫者</p>
+      <p class="about-me-card-text-big about-me-card-text-color">{{ t('defender') }}</p>
       <p class="about-me-card-text-big">ISFJ</p>
     </div>
     <div class="about-me-character-img">
@@ -30,20 +32,19 @@
 }
 
 .about-me-character-type{
-  width: fit-content;
+  flex: 1;
 }
 
 .about-me-character-img{
-  display: flex;
-  align-items: end;
-  position: relative;
-  flex: 1;
-  transition: transform 1s;
-  width: fit-content;
-  min-height: 110px;
+  width: 150px;
+  height: 150px;
   background-image: url("/ISFJ-A.png");
-  background-position: right bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+  @media screen and (max-width: 770px) {
+    width: 100px;
+    height: 100px;
+  }
 }
 </style>

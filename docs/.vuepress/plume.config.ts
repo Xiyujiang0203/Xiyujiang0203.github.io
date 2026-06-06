@@ -1,14 +1,25 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import { navbar } from './navbar'
+import { navbarEn } from './navbar.en'
+
+const postCover = {
+  layout: 'odd-left' as const,
+  ratio: '16:9' as const,
+  width: 400,
+  compact: true,
+}
+
+const postSocial = [
+  { icon: 'github', link: 'https://github.com/Xiyujiang0203' },
+  { icon: 'simple-icons:csdn', link: 'https://jixiuy.blog.csdn.net' },
+]
 
 export default defineThemeConfig({
   logo: 'https://github.com/Xiyujiang0203.png',
 
   profile: {
     name: 'XYJIANG',
-    description: 'Where the will is set, no distance is too great to reach.',
     avatar: 'https://github.com/Xiyujiang0203.png',
-    location: 'Xiamen, Fujian',
     circle: true,
     layout: 'right',
   },
@@ -28,37 +39,53 @@ export default defineThemeConfig({
     appearance: 'circle-clip',
   },
 
-  collections: [
-    {
-      type: 'post',
-      dir: 'blog',
-      title: '博客',
-      pagination: 10,
-      postCover: {
-        layout: 'odd-left',
-        ratio: '16:9',
-        width: 400,
-        compact: true
-      },
-      social: [
-        { icon: 'github', link: 'https://github.com/Xiyujiang0203' },
-        { icon: 'simple-icons:csdn', link: 'https://jixiuy.blog.csdn.net' },
+  copyright: 'CC-BY-NC-ND-4.0',
+  footer: false,
+
+  locales: {
+    '/': {
+      selectLanguageName: '简体中文',
+      navbar,
+      profile: { location: '福建厦门', description: '志之所趋 无远弗届 穷山距海 不能限也' },
+      collections: [
+        {
+          type: 'post',
+          dir: 'blog',
+          title: '博客',
+          pagination: 10,
+          postCover,
+          social: postSocial,
+        },
+        {
+          type: 'doc',
+          dir: 'notes',
+          linkPrefix: '/notes/',
+          title: '笔记',
+          sidebar: 'auto',
+        },
       ],
     },
-    {
-      type: 'doc',
-      dir: 'notes',
-      linkPrefix: '/notes/',
-      title: '笔记',
-      sidebar: 'auto',
+    '/en/': {
+      selectLanguageName: 'English',
+      navbar: navbarEn,
+      profile: { location: 'Xiamen, Fujian', description: 'Where the will aims, no distance is too far; mountains and seas cannot confine it.' },
+      collections: [
+        {
+          type: 'post',
+          dir: 'blog',
+          title: 'Blog',
+          pagination: 10,
+          postCover,
+          social: postSocial,
+        },
+        {
+          type: 'doc',
+          dir: 'notes',
+          linkPrefix: '/en/notes/',
+          title: 'Notes',
+          sidebar: 'auto',
+        },
+      ],
     },
-  ],
-
-  copyright: 'CC-BY-NC-ND-4.0',
-
-  footer: {
-    message: '🥼 <a target="_blank" href="https://theme-plume.vuejs.press/">vuepress-theme-plume</a> & ✒️ XYJIANG',
   },
-
-  navbar,
 })

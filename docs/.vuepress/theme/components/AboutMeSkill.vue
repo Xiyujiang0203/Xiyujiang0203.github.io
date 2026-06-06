@@ -1,8 +1,8 @@
 <template>
   <div class="about-me-card-bg vp-blog-post-item about-me-skill">
     <div style="margin-left: 20px">
-      <p class="about-me-card-title-normal">技能</p>
-      <p class="about-me-card-text-big">我的能力</p>
+      <p class="about-me-card-title-normal">{{ t('skills') }}</p>
+      <p class="about-me-card-text-big">{{ t('mySkills') }}</p>
     </div>
     <!-- 第一行向左移动 -->
     <div class="marquee-row first-row">
@@ -28,6 +28,9 @@
 
 <script setup>
 import { ref } from 'vue';
+import { useSiteI18n } from '../composables/useSiteI18n'
+
+const { t } = useSiteI18n()
 
 // 技能
 const technology = ref([

@@ -5,7 +5,7 @@
 
       <a href="https://github.com/Xiyujiang0203" target="_blank" class="head-social-btn"> <icon name="mdi:github"/> </a>
       <a href="https://jixiuy.blog.csdn.net" target="_blank" class="head-social-btn"><icon name="simple-icons:csdn"/></a>
-      <router-link to="/blog/" class="head-social-avatar"><img src="https://github.com/Xiyujiang0203.png" alt="avatar"></router-link>
+      <router-link :to="localePath('/blog/')" class="head-social-avatar"><img src="https://github.com/Xiyujiang0203.png" alt="avatar"></router-link>
       <a href="mailto:jiangxiyu@stu.xmu.edu.cn" target="_blank" class="head-social-btn"><icon class="head-social-btn" name="ic:baseline-email"></icon></a>
 
     </div>
@@ -15,9 +15,9 @@
         <AboutMeText>
           <template #motto>
             <slot name="motto">
-              <p class="about-me-card-title-normal">座右铭</p>
-              <p class="about-me-card-text-big">Where the will is set,</p>
-              <p class="about-me-card-text-big about-me-card-text-color">no distance is too great to reach.</p>
+              <p class="about-me-card-title-normal">{{ t('motto') }}</p>
+              <p class="about-me-card-text-big">{{ t('mottoLine1') }}</p>
+              <p class="about-me-card-text-big about-me-card-text-color">{{ t('mottoLine2') }}</p>
             </slot>
           </template>
         </AboutMeText>
@@ -30,7 +30,7 @@
         <AboutMeText>
           <template #motto>
             <slot name="motto">
-              <p class="about-me-card-title-normal">提交记录</p>
+              <p class="about-me-card-title-normal">{{ t('contributions') }}</p>
               <picture>
                 <source media="(prefers-color-scheme: light),(prefers-color-scheme: dark)"
                         srcset="https://raw.githubusercontent.com/Xiyujiang0203/Xiyujiang0203/output/github-contribution-grid-snake-dark.svg"
@@ -108,6 +108,7 @@ canvas {
   max-width: 1380px;
   margin: 0 auto;
   width: 90%;
+  padding-bottom: 60px;
   @media screen and (max-width: 770px) {
     width: 94%;
   }
@@ -147,6 +148,9 @@ import AboutMeSkill from "./AboutMeSkill.vue";
 import AboutMeCharacter from "./AboutMeCharacter.vue";
 import AboutMeLife from "./AboutMeLife.vue";
 import AboutMeFriendLink from "./AboutMeFriendLink.vue";
+import { useSiteI18n } from '../composables/useSiteI18n'
+
+const { t, localePath } = useSiteI18n()
 
 interface Comet {
   direction: 'horizontal' | 'vertical'

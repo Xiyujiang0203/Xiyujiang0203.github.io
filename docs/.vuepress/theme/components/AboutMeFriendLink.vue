@@ -1,17 +1,20 @@
 <script setup>
 import FRIENDS from '../data/friends.json'
+import { useSiteI18n } from '../composables/useSiteI18n'
+
+const { t, localePath } = useSiteI18n()
 </script>
 
 <template>
 <div class="about-me-card-bg vp-blog-post-item about-me-friends">
-  <p class="about-me-card-title-normal">友情链接</p>
+  <p class="about-me-card-title-normal">{{ t('friends') }}</p>
   <div class="about-me-friends-title">
-    <p class="about-me-card-text-big about-me-card-text-color">我的好友们</p>
-    <router-link to="/friends/"> <icon name="game-icons:three-friends"/> 所有好友 </router-link>
+    <p class="about-me-card-text-big about-me-card-text-color">{{ t('myFriends') }}</p>
+    <router-link :to="localePath('/friends/')"> <icon name="game-icons:three-friends"/> {{ t('allFriends') }} </router-link>
   </div>
   <div class="about-me-friends-content">
     <a :href="item.link" target="_blank" class="about-me-friends-item" v-for="(item, index) in FRIENDS" :key="index" :title="item.name+':'+item.link">
-      <img :src="item.avatar" alt="头像">
+      <img :src="item.avatar" alt="avatar">
     </a>
   </div>
 </div>

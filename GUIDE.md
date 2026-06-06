@@ -69,6 +69,20 @@
 
 ### 5. 博客文章 `docs/blog/*.md`
 
+每篇文章须写**中英两版**，中文在上、英文在下，用 `---` 分隔：
+
+```markdown
+正文（中文）...
+
+---
+
+## English
+
+Body (English)...
+```
+
+`docs/en/blog/` 下同步创建对应文件，**英文在上、中文在下**：
+
 ```yaml
 ---
 title: 文章标题
@@ -78,11 +92,13 @@ permalink: /blog/slug/
 ---
 ```
 
+英文路径 permalink 须以 `/en/` 开头，例如 `/en/blog/slug/`。
+
 标签页 `/blog/tags/`、归档页 `/blog/archives/` 自动生成。
 
 ### 6. 笔记 `docs/notes/`
 
-在 `docs/notes/` 下按目录创建 Markdown，permalink 须以 `/notes/` 开头。
+在 `docs/notes/` 下按目录创建 Markdown，permalink 须以 `/notes/` 开头。正文同样**中英各半**，并在 `docs/en/notes/` 镜像一份（英文优先）。
 
 导航栏「笔记」下拉在 `navbar.ts` 的 `items` 中配置。
 

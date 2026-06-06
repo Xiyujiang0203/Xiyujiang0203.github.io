@@ -1,12 +1,14 @@
 <script setup>
+import { useSiteI18n } from '../composables/useSiteI18n'
 
+const { t } = useSiteI18n()
 </script>
 
 <template>
   <div class="about-me-name">
-    <p>你好，很高兴认识你！👋</p>
-    <p class="about-me-card-text-big">你可以叫我 XYJIANG .</p>
-    <p>致力于全栈开发，乐意与你探讨有趣的技术。</p>
+    <p>{{ t('greeting') }}</p>
+    <p class="about-me-card-text-big">{{ t('callMe') }}</p>
+    <p>{{ t('intro') }}</p>
   </div>
 </template>
 
