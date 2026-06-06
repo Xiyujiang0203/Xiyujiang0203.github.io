@@ -1,0 +1,33 @@
+{
+  "name": "xyj-blog",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "XYJ's Blog - vuepress-theme-plume",
+  "packageManager": "pnpm@10.14.0",
+  "author": "YOUR_NAME <YOUR_EMAIL@example.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^18.20.0 || >=20.0.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "vp-update": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.28",
+    "http-server": "^14.1.1",
+    "sass-embedded": "^1.97.1",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.34",
+    "vuepress": "2.0.0-rc.28",
+    "vuepress-theme-plume": "1.0.0-rc.200"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.417",
+    "echarts": "^5.6.0",
+    "swiper": "^11.2.10"
+  }
+}
