@@ -6,9 +6,3 @@ permalink: /blog/hello-world/
 ---
 
 这是你的第一篇博客文章，修改或删除即可。
-
----
-
-## English
-
-This is your first blog post. Edit or delete it as you like.

@@ -81,7 +81,7 @@ export default defineThemeConfig({
         {
           type: 'doc',
           dir: 'notes',
-          linkPrefix: '/en/notes/',
+          linkPrefix: '/notes/',
           title: 'Notes',
           sidebar: 'auto',
         },
