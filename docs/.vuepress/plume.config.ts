@@ -14,6 +14,9 @@ const postSocial = [
   { icon: 'simple-icons:csdn', link: 'https://jixiuy.blog.csdn.net' },
 ]
 
+const categoriesTransform = (categories: { id: string; sort: number; name: string }[]) =>
+  categories.map(cat => (cat.name === 'android' ? { ...cat, name: 'Android' } : cat))
+
 export default defineThemeConfig({
   logo: 'https://github.com/Xiyujiang0203.png',
 
@@ -55,6 +58,7 @@ export default defineThemeConfig({
           pagination: 10,
           postCover,
           social: postSocial,
+          categoriesTransform,
         },
         {
           type: 'doc',
@@ -77,6 +81,7 @@ export default defineThemeConfig({
           pagination: 10,
           postCover,
           social: postSocial,
+          categoriesTransform,
         },
         {
           type: 'doc',
