@@ -15,7 +15,11 @@ const postSocial = [
 ]
 
 const categoriesTransform = (categories: { id: string; sort: number; name: string }[]) =>
-  categories.map(cat => (cat.name === 'android' ? { ...cat, name: 'Android' } : cat))
+  categories.map(cat => {
+    if (cat.name === 'android') return { ...cat, name: 'Android' }
+    if (cat.name === 'rust') return { ...cat, name: 'Rust' }
+    return cat
+  })
 
 export default defineThemeConfig({
   logo: 'https://github.com/Xiyujiang0203.png',
