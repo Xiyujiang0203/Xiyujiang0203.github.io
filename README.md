@@ -1,29 +1,29 @@
 # XYJ's Blog
 
-基于 [vuepress-theme-plume](https://theme-plume.vuejs.press/) 搭建。
+Built with [vuepress-theme-plume](https://theme-plume.vuejs.press/).
 
-## 环境要求
+## Requirements
 
-- Node.js `^18.20.0` 或 `>=20.0.0`
-- pnpm（推荐）
+- Node.js `^18.20.0` or `>=20.0.0`
+- pnpm (recommended)
 
-> **重要**：项目路径不能含单引号 `'`。原目录 `XYJ's Blog` 会导致 Vite 解析 import 失败，请始终在 `e:\WebProject\XYJ-Blog` 下开发。
+> **Important**: The project path must not contain single quotes `'`. The original directory `XYJ's Blog` causes Vite import resolution to fail. Always develop under `e:\WebProject\XYJ-Blog`.
 
-## 快速启动
+## Quick Start
 
 ```bash
 pnpm install
 pnpm docs:dev
 ```
 
-浏览器访问 `http://localhost:8080`
+Open `http://localhost:8080` in your browser.
 
 ```bash
-pnpm docs:build      # 构建
-pnpm docs:preview    # 预览构建产物
-pnpm vp-update       # 更新 vuepress 和主题
+pnpm docs:build      # build
+pnpm docs:preview    # preview build output
+pnpm vp-update       # update vuepress and theme
 ```
 
-## 项目指南
+## Project Guide
 
-配置、内容填写与部署说明见 [GUIDE.md](./GUIDE.md)。
+See [GUIDE.md](./GUIDE.md) for configuration, content, and deployment.
