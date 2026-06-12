@@ -18,6 +18,7 @@ const categoriesTransform = (categories: { id: string; sort: number; name: strin
   categories.map(cat => {
     if (cat.name === 'android') return { ...cat, name: 'Android' }
     if (cat.name === 'rust') return { ...cat, name: 'Rust' }
+    if (cat.name === 'career') return { ...cat, name: 'Career' }
     return cat
   })
 
