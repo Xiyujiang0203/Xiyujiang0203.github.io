@@ -19,6 +19,16 @@ const categoriesTransform = (categories: { id: string; sort: number; name: strin
     if (cat.name === 'android') return { ...cat, name: 'Android' }
     if (cat.name === 'rust') return { ...cat, name: 'Rust' }
     if (cat.name === 'career') return { ...cat, name: 'Career' }
+    if (cat.name === 'reading') return { ...cat, name: '读书笔记' }
+    return cat
+  })
+
+const categoriesTransformEn = (categories: { id: string; sort: number; name: string }[]) =>
+  categories.map(cat => {
+    if (cat.name === 'android') return { ...cat, name: 'Android' }
+    if (cat.name === 'rust') return { ...cat, name: 'Rust' }
+    if (cat.name === 'career') return { ...cat, name: 'Career' }
+    if (cat.name === 'reading') return { ...cat, name: 'Reading' }
     return cat
   })
 
@@ -86,7 +96,7 @@ export default defineThemeConfig({
           pagination: 10,
           postCover,
           social: postSocial,
-          categoriesTransform,
+          categoriesTransform: categoriesTransformEn,
         },
         {
           type: 'doc',
