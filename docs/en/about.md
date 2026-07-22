@@ -42,6 +42,7 @@ Happy to chat about interesting projects — collaboration and exchange are both
   - WeChat: Xyjiang0203
   - GitHub: [Xiyujiang0203](https://github.com/Xiyujiang0203)
   - CSDN: [jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net) (discontinued)
+  - Love: [xyyt.love](https://www.xyyt.love/)
 - 📍 **Location**: Xiamen, Fujian · XMU
 
 ## 🔬 Research Achievements
@@ -92,4 +93,5 @@ Representative outcomes from first-year master's collaboration with State Grid S
 |------|------|------|
 | 🐙 GitHub | Profile | [github.com/Xiyujiang0203](https://github.com/Xiyujiang0203) |
 | 📝 CSDN | Tech Blog (discontinued) | [jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net) |
+| 💕 Love | XY❤️YT | [xyyt.love](https://www.xyyt.love/) |
 | 🏠 Blog | This Site | [/en/blog/](/en/blog/) |

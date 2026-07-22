@@ -42,6 +42,7 @@ createTime: 2026/07/22 00:00:00
   - 微信：Xyjiang0203
   - GitHub：[Xiyujiang0203](https://github.com/Xiyujiang0203)
   - CSDN：[jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net)（已停更）
+  - 恋爱：[xyyt.love](https://www.xyyt.love/)
 - 📍 **所在地**：福建厦门 · XMU
 
 ## 🔬 科研成果
@@ -92,4 +93,5 @@ createTime: 2026/07/22 00:00:00
 |------|------|------|
 | 🐙 GitHub | 个人主页 | [github.com/Xiyujiang0203](https://github.com/Xiyujiang0203) |
 | 📝 CSDN | 技术博客（已停更） | [jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net) |
+| 💕 Love | XY❤️YT | [xyyt.love](https://www.xyyt.love/) |
 | 🏠 Blog | 本站博客 | [/blog/](/blog/) |
