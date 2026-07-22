@@ -51,7 +51,7 @@ Representative outcomes from first-year master's collaboration with State Grid S
 1. **Patent · Filed** (9 Jun 2026): A method and system for large-scale network configuration verification based on destination-independent compression (Applicant: Xiamen University)
 
 2. **Paper · Indexed** (11 May 2026): Xingshen Wei<sup>1</sup>, Xiao Zhang<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3</sup>, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”.  
-   <sup>1</sup>State Grid Electric Power Research Institute Co., Ltd., Nanjing, Jiangsu, China; <sup>2</sup>State Grid Electric Power Research Institute Co., Ltd. / State Grid Corporation of China, Beijing, China; <sup>3</sup>School of Informatics, Xiamen University, Xiamen, Fujian, China
+   <sup>1</sup>State Grid Electric Power Research Institute Co., Ltd., Nanjing, Jiangsu, China; <sup>2</sup>State Grid Corporation of China, Beijing, China; <sup>3</sup>School of Informatics, Xiamen University, Xiamen, Fujian, China
 
 3. **Paper · Indexed** (19 December 2025): Xiong Zhan<sup>1</sup>, Zhihua Wang<sup>2</sup>, Hongfu Chen<sup>2</sup>, Minghui Jin<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3</sup>, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”.  
    <sup>1</sup>State Grid Corporation of China, Beijing, China; <sup>2</sup>State Grid Shanghai Municipal Electric Power Company, Shanghai, China; <sup>3</sup>School of Informatics, Xiamen University, Xiamen, China
