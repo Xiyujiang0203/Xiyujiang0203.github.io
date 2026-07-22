@@ -26,7 +26,7 @@ Hi, I'm **XYJIANG**.
 My top priority right now is taking care of myself and living well.  
 Next up: graduate smoothly, and find a "balanced" job that pays the bills without 996.  
 In my spare time I tinker with reverse engineering, automation, embedded systems, software development, and AI — all things I don't fully get yet but can't stop playing with.  
-Interesting projects? Happy to chat — collaboration and exchange are both welcome.
+Happy to chat about interesting projects — collaboration and exchange are both welcome.
 
 - 🌱 **Education**:
   - B.E. in Computer Science and Technology | School of Computer and Information Security, Guilin University of Electronic Technology (GUET), 2021–2025
