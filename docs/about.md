@@ -50,10 +50,10 @@ createTime: 2026/06/06 00:00:00
 
 1. **专利 · 已受理**（2026.06.09）：一种基于目的地无关压缩的大规模网络配置验证方法及系统（申请人：厦门大学）
 
-2. **论文 · 已检索**（11 May 2026）：Xingshen Wei<sup>1</sup>, Xiao Zhang<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”.  
+2. **论文 · 已检索**（11 May 2026）：Xingshen Wei<sup>1</sup>, Xiao Zhang<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3</sup>, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”.  
    <sup>1</sup>国网电力科学研究院有限公司，南京；<sup>2</sup>国网电力科学研究院有限公司 / 国家电网有限公司，北京；<sup>3</sup>厦门大学信息学院，厦门
 
-3. **论文 · 已检索**（19 December 2025）：Xiong Zhan<sup>1</sup>, Zhihua Wang<sup>2</sup>, Hongfu Chen<sup>2</sup>, Minghui Jin<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”.  
+3. **论文 · 已检索**（19 December 2025）：Xiong Zhan<sup>1</sup>, Zhihua Wang<sup>2</sup>, Hongfu Chen<sup>2</sup>, Minghui Jin<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3</sup>, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”.  
    <sup>1</sup>国家电网有限公司，北京；<sup>2</sup>国网上海市电力公司，上海；<sup>3</sup>厦门大学信息学院，厦门
 
 4. **专利 · 已授权**（2025.09.28）：一种电网分布外虚假数据注入攻击检测方法（申请人：国网上海市电力公司、国网电力科学研究院有限公司、南京南瑞信息通信科技有限公司）
