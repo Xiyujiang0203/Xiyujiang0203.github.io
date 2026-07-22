@@ -50,8 +50,11 @@ createTime: 2026/06/06 00:00:00
 
 **论文（已检索）**
 
-1. Xingshen Wei, Xiao Zhang, Xiyu Jiang, and Lizhao You*, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”, indexed.
-2. Xiong Zhan, Zhihua Wang, Hongfu Chen, Minghui Jin, Xiyu Jiang, and Lizhao You*, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”, indexed.
+1. Xingshen Wei<sup>1</sup>, Xiao Zhang<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”, indexed.  
+   <sup>1</sup>国网电力科学研究院有限公司，南京；<sup>2</sup>国网电力科学研究院有限公司 / 国家电网有限公司，北京；<sup>3</sup>厦门大学信息学院，厦门
+
+2. Xiong Zhan<sup>1</sup>, Zhihua Wang<sup>2</sup>, Hongfu Chen<sup>2</sup>, Minghui Jin<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”, indexed.  
+   <sup>1</sup>国家电网有限公司，北京；<sup>2</sup>国网上海市电力公司，上海；<sup>3</sup>厦门大学信息学院，厦门
 
 > Note: \* Corresponding Author
 

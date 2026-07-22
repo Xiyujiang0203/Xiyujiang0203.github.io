@@ -50,8 +50,11 @@ Representative outcomes from first-year master's collaboration with State Grid S
 
 **Papers (Indexed)**
 
-1. Xingshen Wei, Xiao Zhang, Xiyu Jiang, and Lizhao You*, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”, indexed.
-2. Xiong Zhan, Zhihua Wang, Hongfu Chen, Minghui Jin, Xiyu Jiang, and Lizhao You*, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”, indexed.
+1. Xingshen Wei<sup>1</sup>, Xiao Zhang<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”, indexed.  
+   <sup>1</sup>State Grid Electric Power Research Institute Co., Ltd., Nanjing, Jiangsu, China; <sup>2</sup>State Grid Electric Power Research Institute Co., Ltd. / State Grid Corporation of China, Beijing, China; <sup>3</sup>School of Informatics, Xiamen University, Xiamen, Fujian, China
+
+2. Xiong Zhan<sup>1</sup>, Zhihua Wang<sup>2</sup>, Hongfu Chen<sup>2</sup>, Minghui Jin<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”, indexed.  
+   <sup>1</sup>State Grid Corporation of China, Beijing, China; <sup>2</sup>State Grid Shanghai Municipal Electric Power Company, Shanghai, China; <sup>3</sup>School of Informatics, Xiamen University, Xiamen, China
 
 > Note: \* Corresponding Author
 
