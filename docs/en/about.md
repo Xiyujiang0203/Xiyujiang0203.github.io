@@ -58,8 +58,6 @@ Representative outcomes from first-year master's collaboration with State Grid S
 
 4. **Patent · Granted** (28 Sep 2025): A method for detecting out-of-distribution false data injection attacks in power grids (Applicants: State Grid Shanghai Municipal Electric Power Company; State Grid Electric Power Research Institute Co., Ltd.; Nanjing NARI Information & Communication Technology Co., Ltd.)
 
-> Note: \* Corresponding Author
-
 **Projects**
 
 - State Grid Headquarters Science & Technology Project, “Research and Equipment Development of Key Cybersecurity Protection Technologies for Power Monitoring Systems under New Situations”, Nov 2024 – May 2026, Participant, Ongoing
