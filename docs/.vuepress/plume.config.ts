@@ -20,6 +20,7 @@ const categoriesTransform = (categories: { id: string; sort: number; name: strin
     if (cat.name === 'rust') return { ...cat, name: 'Rust' }
     if (cat.name === 'career') return { ...cat, name: 'Career' }
     if (cat.name === 'reading') return { ...cat, name: '读书笔记' }
+    if (cat.name === 'langchain') return { ...cat, name: 'LangChain' }
     return cat
   })
 
@@ -29,6 +30,7 @@ const categoriesTransformEn = (categories: { id: string; sort: number; name: str
     if (cat.name === 'rust') return { ...cat, name: 'Rust' }
     if (cat.name === 'career') return { ...cat, name: 'Career' }
     if (cat.name === 'reading') return { ...cat, name: 'Reading' }
+    if (cat.name === 'langchain') return { ...cat, name: 'LangChain' }
     return cat
   })
 
@@ -64,7 +66,7 @@ export default defineThemeConfig({
     '/': {
       selectLanguageName: '简体中文',
       navbar,
-      profile: { location: '福建厦门', description: '志之所趋 无远弗届 穷山距海 不能限也' },
+      profile: { location: '福建厦门', description: '人生就像生产环境，你永远不知道下一秒是流量高峰，还是磁盘写满。但没关系，先查日志（复盘），再重启（睡一觉），最后不行就回滚（认怂）。' },
       collections: [
         {
           type: 'post',
@@ -87,7 +89,7 @@ export default defineThemeConfig({
     '/en/': {
       selectLanguageName: 'English',
       navbar: navbarEn,
-      profile: { location: 'Xiamen, Fujian', description: 'Where the will aims, no distance is too far; mountains and seas cannot confine it.' },
+      profile: { location: 'Xiamen, Fujian', description: 'Life is like production: you never know if the next second brings a traffic spike or a full disk. No worries — check the logs (reflect), reboot (sleep), and if that fails, roll back (admit defeat).' },
       collections: [
         {
           type: 'post',

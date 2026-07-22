@@ -28,6 +28,7 @@
   "dependencies": {
     "@iconify/json": "^2.2.417",
     "echarts": "^5.6.0",
+    "mermaid": "^11.16.0",
     "swiper": "^11.2.10"
   }
 }

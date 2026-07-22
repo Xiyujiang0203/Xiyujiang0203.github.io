@@ -50,7 +50,7 @@ Search globally for `YOUR_` and replace with your real information.
 | `theme/components/AboutMeName.vue` | Greeting, display name, one-line intro |
 | `theme/components/AboutMeSkill.vue` | `technology` / `tools` arrays, each item `{ type, icon }` |
 | `theme/components/AboutMeLife.vue` | `lifeData` pie chart (life/study/work ratio) |
-| `theme/components/AboutMeCharacter.vue` | MBTI title and type; replace `public/ISFJ-A.png` |
+| `theme/components/AboutMeCharacter.vue` | MBTI title and type; replace `public/ISFJ-A.svg` |
 | `theme/data/friends.json` | Friends list `name/link/avatar/desc` |
 
 Find skill icons on [Iconify](https://icon-sets.iconify.design/), e.g. `logos:vue`, `devicon:java`.
@@ -97,7 +97,7 @@ To add a note category: `plume.config.ts` already has a `type: 'doc'` collection
 | File | Purpose |
 |------|---------|
 | `plume.svg` | Default avatar/logo (replace with yours) |
-| `ISFJ-A.png` | Home page personality image |
+| `ISFJ-A.svg` | Home page personality image (male Defender) |
 | `bg-3.jpg` | Home page background |
 | `images/hello.png` | About page header image |
 

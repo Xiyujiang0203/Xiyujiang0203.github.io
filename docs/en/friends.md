@@ -21,7 +21,7 @@ copyright: false
 ```yaml
 Name: XYJIANG
 Website: https://xiyujiang0203.github.io
-Description: Where the will aims, no distance is too far; mountains and seas cannot confine it.
+Description: Life is like production: you never know if the next second brings a traffic spike or a full disk. No worries — check the logs (reflect), reboot (sleep), and if that fails, roll back (admit defeat).
 Avatar: https://github.com/Xiyujiang0203.png
 Site Image: https://github.com/Xiyujiang0203.png
 ```

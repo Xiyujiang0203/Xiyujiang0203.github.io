@@ -38,7 +38,7 @@ const { t } = useSiteI18n()
 .about-me-character-img{
   width: 150px;
   height: 150px;
-  background-image: url("/ISFJ-A.png");
+  background-image: url("/ISFJ-A.svg");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease;

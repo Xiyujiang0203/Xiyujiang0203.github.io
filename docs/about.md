@@ -21,20 +21,27 @@ createTime: 2026/06/06 00:00:00
 
 ## 👨‍💻 关于我
 
-大家好，我是 **XYJIANG**，致力于全栈开发，也很乐意与你探讨有趣的技术 😎
+大家好，我是 **XYJIANG**。
+
+当前最重要的任务是关心自己，好好生活。  
+次要任务是顺利毕业，顺便找一份不用 996 也能养活自己的“平衡型”工作。  
+业余喜欢捣鼓逆向、自动化、嵌入式、软件开发、AI，全是“玩不明白但很上头”的东西。  
+有意思的项目欢迎来聊，合作交流皆可。
 
 - 🌱 **教育经历**：
   - 工学学士 | 桂林电子科技大学计算机与信息安全学院计算机科学与技术专业，2021–2025
   - 工学硕士（在读）| 厦门大学信息学院人工智能专业，2025–2028
-- ⚡ **兴趣方向**：虽不专攻 AI 研究，但对人工智能始终保持浓厚兴趣
-- 🧑🏻‍💻 **开发能力**：后端（Spring Boot & Go）&& 前端（Android & Flutter）
+- ⚡ **兴趣与职业方向**：AI 工程落地，持续关注模型推理优化、微调、轻量化部署及边缘端 AI 应用。
+- 🔬 **科研方向**：网络层验证加速
+- 🧭 **生活锚点**：探索技术，看书与恋爱，音乐，旅游，运动
+- 🧑🏻‍💻 **开发能力**：全栈，主要是安卓与 AI
 - 💼 **实习经历**：TBD
 - 🎮 **游戏**：现在不怎么玩
 - 📫 **联系方式**：
   - 邮箱：jiangxiyu@stu.xmu.edu.cn（不常用，回复较慢）
   - 微信：Xyjiang0203
   - GitHub：[Xiyujiang0203](https://github.com/Xiyujiang0203)
-  - CSDN：[jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net)
+  - CSDN：[jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net)（已停更）
 - 📍 **所在地**：福建厦门 · XMU
 
 ## ✨ 精选项目
@@ -66,5 +73,5 @@ createTime: 2026/06/06 00:00:00
 | Icon | 名称 | 链接 |
 |------|------|------|
 | 🐙 GitHub | 个人主页 | [github.com/Xiyujiang0203](https://github.com/Xiyujiang0203) |
-| 📝 CSDN | 技术博客 | [jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net) |
+| 📝 CSDN | 技术博客（已停更） | [jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net) |
 | 🏠 Blog | 本站博客 | [/blog/](/blog/) |

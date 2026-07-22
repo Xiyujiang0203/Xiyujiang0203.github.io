@@ -21,7 +21,7 @@ copyright: false
 ```yaml
 我的名称: XYJIANG
 网站地址: https://xiyujiang0203.github.io
-描述: 志之所趋 无远弗届 穷山距海 不能限也
+描述: 人生就像生产环境，你永远不知道下一秒是流量高峰，还是磁盘写满。但没关系，先查日志（复盘），再重启（睡一觉），最后不行就回滚（认怂）。
 头像: https://github.com/Xiyujiang0203.png
 站点图片: https://github.com/Xiyujiang0203.png
 ```

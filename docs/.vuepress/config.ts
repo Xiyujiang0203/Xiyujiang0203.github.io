@@ -54,6 +54,7 @@ export default defineUserConfig({
       timeline: true,
       collapse: true,
       echarts: true,
+      mermaid: true,
       fileTree: { icon: 'colored' },
     },
 
