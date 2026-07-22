@@ -50,18 +50,18 @@ Representative outcomes from first-year master's collaboration with State Grid S
 
 **Papers (Indexed)**
 
-1. Xingshen Wei<sup>1</sup>, Xiao Zhang<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”, indexed.  
+1. Xingshen Wei<sup>1</sup>, Xiao Zhang<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”, indexed, 11 May 2026.  
    <sup>1</sup>State Grid Electric Power Research Institute Co., Ltd., Nanjing, Jiangsu, China; <sup>2</sup>State Grid Electric Power Research Institute Co., Ltd. / State Grid Corporation of China, Beijing, China; <sup>3</sup>School of Informatics, Xiamen University, Xiamen, Fujian, China
 
-2. Xiong Zhan<sup>1</sup>, Zhihua Wang<sup>2</sup>, Hongfu Chen<sup>2</sup>, Minghui Jin<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”, indexed.  
+2. Xiong Zhan<sup>1</sup>, Zhihua Wang<sup>2</sup>, Hongfu Chen<sup>2</sup>, Minghui Jin<sup>2</sup>, Xiyu Jiang<sup>3</sup>, and Lizhao You<sup>3,\*</sup>, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”, indexed, 19 December 2025.  
    <sup>1</sup>State Grid Corporation of China, Beijing, China; <sup>2</sup>State Grid Shanghai Municipal Electric Power Company, Shanghai, China; <sup>3</sup>School of Informatics, Xiamen University, Xiamen, China
 
 > Note: \* Corresponding Author
 
 **Patents**
 
-- Granted: A method for detecting out-of-distribution false data injection attacks in power grids (Applicants: State Grid Shanghai Municipal Electric Power Company; State Grid Electric Power Research Institute Co., Ltd.; Nanjing NARI Information & Communication Technology Co., Ltd.)
-- Filed: A method and system for large-scale network configuration verification based on destination-independent compression
+- Granted (28 Sep 2025): A method for detecting out-of-distribution false data injection attacks in power grids (Applicants: State Grid Shanghai Municipal Electric Power Company; State Grid Electric Power Research Institute Co., Ltd.; Nanjing NARI Information & Communication Technology Co., Ltd.)
+- Filed (9 Jun 2026): A method and system for large-scale network configuration verification based on destination-independent compression (Applicant: Xiamen University)
 
 **Projects**
 
