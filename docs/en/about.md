@@ -44,6 +44,26 @@ Interesting projects? Happy to chat — collaboration and exchange are both welc
   - CSDN: [jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net) (discontinued)
 - 📍 **Location**: Xiamen, Fujian · XMU
 
+## 🔬 Research Achievements
+
+Representative outcomes from first-year master's collaboration with State Grid Shanghai Municipal Electric Power Company.
+
+**Papers (Indexed)**
+
+1. Xingshen Wei, Xiao Zhang, Xiyu Jiang, and Lizhao You*, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”, indexed.
+2. Xiong Zhan, Zhihua Wang, Hongfu Chen, Minghui Jin, Xiyu Jiang, and Lizhao You*, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”, indexed.
+
+> Note: \* Corresponding Author
+
+**Patents**
+
+- Granted: A method for detecting out-of-distribution false data injection attacks in power grids
+- Filed: A method and system for large-scale network configuration verification based on destination-independent compression
+
+**Projects**
+
+- State Grid Headquarters Science & Technology Project, “Research and Equipment Development of Key Cybersecurity Protection Technologies for Power Monitoring Systems under New Situations”, Nov 2024 – May 2026, Participant, Ongoing
+
 ## ✨ Featured Projects
 
 | Project | Description |

@@ -44,6 +44,26 @@ createTime: 2026/06/06 00:00:00
   - CSDN：[jixiuy.blog.csdn.net](https://jixiuy.blog.csdn.net)（已停更）
 - 📍 **所在地**：福建厦门 · XMU
 
+## 🔬 科研成果
+
+研一与国网上海市电力公司合作产出代表性成果。
+
+**论文（已检索）**
+
+1. Xingshen Wei, Xiao Zhang, Xiyu Jiang, and Lizhao You*, “Semantics-Aware Subtree Retrieval for Scalable Service-Banner-to-CVE Mapping in Vulnerability Discovery”, indexed.
+2. Xiong Zhan, Zhihua Wang, Hongfu Chen, Minghui Jin, Xiyu Jiang, and Lizhao You*, “Detecting Semantic Anomalies in URL Request Sequences Using Fine-Tuned BERT”, indexed.
+
+> Note: \* Corresponding Author
+
+**专利**
+
+- 已授权：一种电网分布外虚假数据注入攻击检测方法
+- 已受理：一种基于目的地无关压缩的大规模网络配置验证方法及系统
+
+**参与项目**
+
+- 国网总部科技项目，《新形势下电力监控系统网络安全防护关键技术研究与装备研发》，2024.11–2026.05，参与，在研
+
 ## ✨ 精选项目
 
 | 项目 | 说明 |
