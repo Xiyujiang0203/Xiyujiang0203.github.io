@@ -60,7 +60,7 @@ Representative outcomes from first-year master's collaboration with State Grid S
 
 **Patents**
 
-- Granted: A method for detecting out-of-distribution false data injection attacks in power grids
+- Granted: A method for detecting out-of-distribution false data injection attacks in power grids (Applicants: State Grid Shanghai Municipal Electric Power Company; State Grid Electric Power Research Institute Co., Ltd.; Nanjing NARI Information & Communication Technology Co., Ltd.)
 - Filed: A method and system for large-scale network configuration verification based on destination-independent compression
 
 **Projects**
