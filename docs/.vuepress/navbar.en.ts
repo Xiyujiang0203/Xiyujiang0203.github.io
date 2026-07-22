@@ -7,9 +7,4 @@ export const navbarEn = defineNavbarConfig([
   { text: 'Archives', link: '/en/blog/archives/', icon: 'lucide:archive' },
   { text: 'Friends', link: '/en/friends/', icon: 'solar:accessibility-bold-duotone' },
   { text: 'About', link: '/en/about/', icon: 'fa:child' },
-  {
-    text: 'Notes',
-    icon: 'mdi:learn-outline',
-    items: [{ text: 'Demo', link: '/en/notes/demo/' }],
-  },
 ])

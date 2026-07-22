@@ -7,9 +7,4 @@ export const navbar = defineNavbarConfig([
   { text: '归档', link: '/blog/archives/', icon: 'lucide:archive' },
   { text: '友链', link: '/friends/', icon: 'solar:accessibility-bold-duotone' },
   { text: '关于', link: '/about/', icon: 'fa:child' },
-  {
-    text: '笔记',
-    icon: 'mdi:learn-outline',
-    items: [{ text: '示例', link: '/notes/demo/' }],
-  },
 ])
